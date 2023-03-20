@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>corona-app</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="/img/icon.png">
+</head>
+<body>
+    <%- include("partials/header") %>
+    <div class="main_page">
+        <div class="full_title">
+            <img class="page_img" src="img/israel.png">
+            <h2 class="main_title">Israel corona Data  </h2>
+            
+        </div>
+        <p>:הקלד את שם העיר עבורה תרצה נתונים</p>
+            <form id="israel_country_form">
+                <input id="israel_country_input">
+                <button>שלח</button>
+            </form>
+            <h2 class="main_title" id="israel_title">israel Data</h2>
+            <h4 class="data_block" id="israel_data_block"></h4>
+
+    </div>
+    <script src="public\js\Israel.js"></script>
+
+</body>
+</html>

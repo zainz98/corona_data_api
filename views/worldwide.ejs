@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>corona-app</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="img/icon.png">
+</head>
+<body>
+    <%- include("partials/header") %>
+    <div class="main_page">
+            <img class="page_img" src="img/world.png">
+            <p>:הקלד את שם המדינה עבורה תרצה נתונים</p>
+            <form id="worldwide_country_form">
+                <input id="worldwide_country_input">
+                <button>שלח</button>
+            </form>
+            <h2 class="main_title" id="world_title">Worldwide Data</h2>
+    <h4 class="data_block" id="worldwide_data_block"></h4>
+    </div>
+    <!-- has to be last in order to run properly -->
+    <script src="/js/worldwide.js"></script>
+</body>
+</html>
